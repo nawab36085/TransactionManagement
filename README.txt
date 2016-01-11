@@ -32,11 +32,6 @@ http://localhost:8080/TransactionManagement/transactionservice/sum/$transactioni
 Response:
 JSON String with "sum" as key and sum of all the transactions as value.
 
-POST
-http://localhost:8080/TransactionManagement/transactionservice
-along with the x-www-form-urlencoded body containing transaction id, amount, type and/or parent id of the transaction.
-Response:
-JSON String with "status" as key and "OK" as value for successful transaction and various error strings for unsuccessful transaction.
 
 The transaction service can be tested using Postman Application provided by Chrome.
 
