@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Transaction</title>
+</head>
+<body>
+	<div style="padding-left:100px;font-family: monospace;">
+		<h2>Create Transaction</h2>
+		<form action="transactionservice" method="POST">
+			<div style="width: 200px; text-align: left;">
+				<div style="padding:10px;">
+					Transaction Id: <input name="id" />
+				</div>
+				<div style="padding:10px;">
+					Transaction Amount: <input name="amount" />
+				</div>
+				<div style="padding:10px;">
+					Transaction Type: <input name="type" />
+				</div>
+				<div style="padding:10px;">
+					Parent Id: <input name="parent_id" />
+				</div>
+				<div style="padding:10px;text-align:center">
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
